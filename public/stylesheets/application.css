@@ -1,0 +1,98 @@
+body {
+  background-size: cover;
+  padding: 0 auto;
+}
+
+/* For the youtube background*/
+
+#video{
+ position: relative;
+ background: transparent;
+}
+
+.ytplayer-container{
+ display: none;
+ position: absolute;
+ top: 0;
+ z-index: -1;
+}
+
+/* Title box contains the weather and search bars */
+
+.title-box {
+  color: white;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 5%;
+  position: absolute;
+  font-size: 20px;
+  font-family: futura;
+  text-align: center;
+}
+
+#title {
+  font-size: 100px;
+  margin-bottom: 10px;
+}
+
+.search-form >input#query {
+  background-color: rgba(0,0,0,0.1);
+  color: white;
+  border: none;
+  text-align: center;
+}
+
+/* The app window contains all of the features superimposed on each other */
+
+.app-window {
+  height: 500px;
+  margin: auto;
+}
+
+.app-window > div {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+
+
+/* ALL THIS STUFF REFERS TO THE CITY SCROLL WHEEL */
+
+.cities {
+  border-radius: 20px;
+  max-height: 500px;
+  max-width: 350px; 
+  overflow: auto;
+  padding: 10px;
+}
+
+.cities > div.city {
+  opacity: 1;
+  font-size: 15px;
+}
+
+.cities > .city:hover {
+  cursor: pointer;
+  margin-left: 10px;
+  transition: margin-left 1s;
+}
+
+/* ALL THIS STUFF IS FOR THE CAROUSEL */
+
+.carousel-container {
+  margin: 0 auto;
+  max-height: 500px;
+  max-width: 350px;
+}
+
+.forecast-box {
+  cursor: pointer;
+  text-align: center;
+}
+
+.forecast {
+  opacity: 0.9;
+}
