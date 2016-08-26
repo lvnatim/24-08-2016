@@ -1,7 +1,6 @@
-Sinatra
-=============
+Weather APP (very unrefined version)
 
-Brought to you by Lighthouse Labs
+Basic concept of an interesting idea for a weather app.
 
 ## Getting Started
 
